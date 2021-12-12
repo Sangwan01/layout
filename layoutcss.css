@@ -1,0 +1,88 @@
+body{
+	margin: auto 0;
+	font-family: arial;
+}
+
+.zone {
+	border: 1px solid #bbb;
+	text-align: ;
+	border-radius: 5px;
+	cursor: pointer;
+	
+
+}
+.zone:hover {
+	-webkit-box-shadow: rgba(0,0,0,0.8) 0px 2px 5px;
+
+}
+.box:hover {
+	-webkit-transform:rotate(-7deg) ;
+	-moz-transform: rotate(deg);
+	-o-transform: rotate(deg);
+	transform: rotate(deg);
+}
+
+li {
+	list-style: none;
+	padding-right: 10px;
+	font-size: 1.5em;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.main-nav {
+	display: flex;
+	font-size: 1em;
+		
+}
+
+@media only screen and (max-width: 600px) {
+	 .main-nav {
+		font-size: 0.7em;
+		padding:  ;
+	}
+}
+
+a {
+	color:black;
+	text-decoration: none;
+}
+.push{
+	margin-left: auto;
+	margin-right: 30px;
+}
+.cover {
+	width: 20rem;
+}
+
+
+.cyan{
+	background-color:cyan;
+}
+.orange{
+	background-color: orange;
+	text-align: center;
+	align-items: center;
+	height: 4vh;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+.grid-wrapper{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+}
+.box > img {
+	width: 100%;
+}
+.box {
+	background-color: #444;
+	padding: 80px;
+	margin: 20px;
+}
